@@ -110,7 +110,7 @@ class App extends Component {
     {this.state.user ?
       <div>
         <div className='user-profile'>
-          <img src={this.state.user.photoURL} />
+          <img src={this.state.user.photoURL} alt="" />
         </div>
 
         <div className='container'>
